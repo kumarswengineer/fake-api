@@ -6,7 +6,7 @@ Install latest stable node version - node 16
 - clone this repo
 - run `npm install` at root
 - run `npm start` at root to start the mock API server
-- in chrome browse `https://localhost:80/test-api/GetAllergies` to see the sample output.
+- in chrome browse `https://localhost/test-api/GetAllergies` to see the sample output.
 
 # contribution 
 - create a module folder in `src`
