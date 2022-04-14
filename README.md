@@ -15,6 +15,7 @@ Install latest stable node version - node 16
 - this method will get the default params `app, appRoot` for adding the mock API def's
 - attach all the mock methods by chaining to `app` and add end point definitions
 - use a `mocks` folder to organize sample responses and import them to send the response 
+- Import Module in index.js under src folder and add it into m/w array list for consideration
 - This mock API is developed with the help of `webpack-dev-server` which is built in-built with `express-js` capabilities.
 - Configure `apiRoot` and `appPort` to run with the actual values from `package.json`
 - final endpoints look like `https://localhost:{appPort}/{apiRoot}/{endpoint}`
